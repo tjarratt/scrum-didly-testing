@@ -15,9 +15,6 @@ jobs:
       - name: Bundler
         run: bundle install
 
-      - name: rake
-        run: bundle exec rake
-
       - name: tests
-        run: bundle exec rakes test
+        run: bundle exec rails test
 
